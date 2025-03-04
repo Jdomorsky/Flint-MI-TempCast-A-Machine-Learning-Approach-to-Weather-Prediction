@@ -10,9 +10,6 @@
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results](#results)
-- [Recommendations](#recommendations)
-- [Limitations](#limitations)
 - [References](#references)
 
 ---
@@ -89,25 +86,6 @@ In the initial data preparation phase, I performed the following tasks:
    - ```[INT(DATEPART('year', [Year]) / 10) * 10]```
    - ```[[Mass (g)]/1000]```
    - ```[LOG([Mass (g)])]```
-
-
----
-### Results
----
-
-
-
----
-### Recommendations
----
-
-
-
----
-### Limitations
----
-
-
 
 
 ---
