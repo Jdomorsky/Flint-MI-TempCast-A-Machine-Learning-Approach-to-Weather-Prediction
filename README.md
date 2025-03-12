@@ -28,6 +28,12 @@ Once the data is cleaned, the focus shifts to feature engineering and model deve
 
 Model evaluation is conducted using both numerical metrics and visualizations. The model achieves an R² score of approximately 0.845, indicating that over 84% of the variance in maximum temperature is explained by the predictors, alongside an RMSE of around 7.42, which quantifies the typical prediction error. Comprehensive plots, including actual versus predicted temperature graphs and detailed residual analyses, offer insightful diagnostics into model behavior and pinpoint opportunities for further improvement. Overall, the project not only exemplifies a complete end-to-end machine learning workflow—from data cleaning and feature engineering to model training and evaluation—but also lays a solid foundation for future explorations in weather prediction.
 
+![Line Graph](https://github.com/user-attachments/assets/1fa6dc6d-f1db-49ed-9bcc-04534f3d3dc9)
+
+![Histogram Graph](https://github.com/user-attachments/assets/6bad0e5f-ff6e-4c00-a1c1-0465fcb3a3c0)
+
+![Scatter Plot Graph](https://github.com/user-attachments/assets/5c545b83-23a8-4293-ad70-4a863ca15b45)
+
 
 ---
 ### Data Sources
@@ -111,11 +117,11 @@ Beyond simple plots, the exploratory phase included a deep dive into the relatio
 ### Data Analysis
 ---
 
+![ML - Flint - Weather Code Snip 1](https://github.com/user-attachments/assets/887371e1-af3c-493b-a4f4-e7d18636f2b1)
 
-- Creates Measures:
-   - ```[INT(DATEPART('year', [Year]) / 10) * 10]```
-   - ```[[Mass (g)]/1000]```
-   - ```[LOG([Mass (g)])]```
+![ML- Flint - Weather Code Snip 2](https://github.com/user-attachments/assets/85040a16-e230-48e8-9d58-150824c504a6)
+
+![ML- Flint - Weather Code Snip 3](https://github.com/user-attachments/assets/27072fbd-fb7b-4ee9-b260-0b456268620d)
 
 
 ---
@@ -158,17 +164,21 @@ Finally, the evaluation of the model is based on a single train-test split, whic
 ---
 
 
-- [NOAA's NCEI](https://www.ncei.noaa.gov/?form=MG0AV3)
+- [***Visual Studio Code (VS Code):***](https://code.visualstudio.com/) IDE used with the Jupyter Notebook extensions for interactive analysis.
 
-- Pandas McKinney, W. (2010). Data Structures for Statistical Computing in Python. Pandas Website
+- [***Jupyter Notebook:***](https://jupyter.org/) Interactive computing environment that facilitated exploratory data analysis.
 
-- NumPy Harris, C.R., et al. (2020). Array Programming with NumPy. NumPy Website
+- [***Python:***](https://www.python.org/) The programming language used for this project.
 
-- Scikit-learn Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Scikit-learn Website
+- [***Yahoo Finance:***](https://finance.yahoo.com/) Data source for historical market data.
 
-- Matplotlib Hunter, J.D. (2007). Matplotlib: A 2D Graphics Environment. Matplotlib Website
+- [***yfinance:***](https://github.com/ranaroussi/yfinance) Python library for retrieving Yahoo Finance data.
 
-- Jupyter Notebook The Jupyter Project. Jupyter Website
+- [***pandas:***](https://pandas.pydata.org/) Library for data manipulation and analysis.
 
-- Visual Studio Code Microsoft Visual Studio Code. VS Code Website
+- [***numpy:***](https://numpy.org/) Library for numerical computations.
+
+- [***scikit-learn:***](https://scikit-learn.org/) Machine learning library used for building the models and evaluating performance.
+
+- [***NOAA's NCEI***](https://www.ncei.noaa.gov/?form=MG0AV3)
 
