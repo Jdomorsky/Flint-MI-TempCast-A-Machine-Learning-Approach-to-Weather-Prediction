@@ -1,5 +1,5 @@
 ---
-# **ML Flint Temperature Predictor**
+# **TempCast: A Machine Learning Approach to Weather Prediction in Flint Michigan**
 ---
 ## **Table of Contents**
 ---
